@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    text-align: left;
+    line-height: 24px;
+    word-spacing: 1px;
+}
+
+.container {
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1)), url("../images/pexels-cottonbro-9667551.jpg");
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container button {
+    border-radius: 10px;
+}
+
+.content { 
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.image-one {
+    width: 310px;
+    height: 300px;
+    margin: 22px auto;
+}
+
+.image-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-us {
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   padding-top: 2rem;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.content-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.main {
+    display: flex;
+    flex-direction: column; 
+}
+
+.paragraph {
+    color: blue;
+}
+
+.image-two {
+    width: 65px;
+    height: 65px;
+    gap: 8px;
+}
+
+.image-two img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.section-three {
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1)), url(../images/download\ \(4\).jpeg);
+    color: white;
+    height: 300px;
+    align-content: center;
+    margin-top:  2rem;
+}
+
+.section-three h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.section-three p {
+    font-size: 8px;
+    text-align: center;
+}
+
+.section-three button {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.client-sec {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.client-sec h3 {
+     text-align: center;
+     color: blue;
+     font-size: 32px;
+     margin: 0;
+}
+
+.client-sec p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0.5em;
+    
+}
+
+.work-sec {
+    background-color: rgb(214, 211, 206);
+    text-align: center;
+    padding: 0.5em;
+}
+
+.btn {
+    color: blue;
+    border-radius: 10px;
+    border-color: blue;
+    margin: 18px auto;
+    padding: 10px;
+    width: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cta {
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    margin: 18px auto;
+    padding: 10px;
+    width: 132px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.box-one-one {
+    width: 65px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    margin: 22px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box-one-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.sub-sec-one {
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.sub-sec-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.sub-sec-two {
+    width: 300px;
+    height: 200px;
+}
+.section-five{
+    background-color: rgba(116, 107, 96, 0.274);
+}
+
+.sub-sec-two img {
+    width: 100%;
+    height: 100%;
+}
+
+.sub-sec-three {
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px; 
+}
+.sub-sec-three img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-six {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.sub-sec-six {
+    background-image:  linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1)), url(../images/shutterstock_1919883236__1_.jpg);
+    color: white;
+    height: 300px;
+    text-align: center;
+    margin-top: 1rem;
+    align-content: center;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.section-seven {
+    color: black;
+    text-align: center;
+    margin-top: 1rem;
+    align-content: center;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.testimonial-img {
+    width: 100%;
+}
+
+.sub-seven{
+     background-color: white;
+     width: 320px;
+     padding: 0.5em;
+}
+
+.sec-image {
+    width: 70px;
+    height: 70px;
+    
+}
+
+.sec-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.sub-seven-sec {
+    color: white;
+}
+
+.footer-sec {
+   width: 50px;
+   height: 50px;
+   gap: 1rem;
+}
+
+.foot img {
+    width: 100%;
+    height: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.parag {
+    font-size: 20px;
+    font-weight: 600;
+}
+svg {
+    width: 25px;
+    height: 25px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 0.5em;
+}
+
+.contact, 
+.logo-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    gap: 0.5em;
+}
+
+.service, 
+.studio, 
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 1em;
+}
+
